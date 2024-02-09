@@ -1,0 +1,525 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  }
+  
+  .company-name {
+    color: #61dafb;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    padding: 20px;
+  }
+  /* Home.css */
+  .home-container {
+    background-color: #61dafb; /* Yellowish golden background color */
+    height: 80vh; /* 100% viewport height */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.8vw;
+    /* padding: 20px; */
+    margin-right: 12px;
+  }
+  .product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .customer-box-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Align boxes vertically in the middle */
+    padding: 25px;
+    padding-bottom: 25px;
+    height: 20vh;
+    margin-bottom: 10%;
+  }
+  
+  
+  .customer-box {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.5s ease;
+    width: 25%; /* Adjust the width to fit 4 boxes in one row */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px solid #71c57c;
+    text-align: center;
+    height: 25vh;
+    margin-top: 45px;
+    margin-bottom: 2%;
+   
+  }
+  
+   .image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .image-container img {
+    position: relative;
+    z-index: 1; /* Ensure the image is in front of the circular band */
+    /* Additional styles for the image as needed */
+  }
+  
+  .image-container .background-image {
+    position: absolute;
+    z-index: 0; /* Place the circular band behind the image */
+    top: 0;
+    right: 0;
+   
+  }
+  .image-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .image-container1 img {
+    position: relative;
+    z-index: 1; /* Ensure the image is in front of the circular band */
+    /* Additional styles for the image as needed */
+  }
+  
+  .image-container1 .background-image {
+    position: absolute;
+    z-index: 0; /* Place the circular band behind the image */
+    top: 0;
+    left: 0;
+   
+  }
+  .content {
+    flex: 1;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    padding: -1%;
+    align-items: flex-end;
+  }
+  .images2 {
+    display: flex;
+    flex-direction: row;
+    padding: -1%;
+    align-items: flex-start;
+  }
+  
+  
+  /* .images img {
+    margin: 5px; /* Add margin for spacing between images */
+   */
+  
+  .mx-auto{
+    
+    padding: 20px;
+    padding-left: 900px;
+  
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .image-content{
+   
+    flex: 1;
+    max-height: 80vh; /* Adjust as needed */
+    margin-left: 20px;
+    margin-right: 45px;
+  }
+  /* Add this CSS to your stylesheet */
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    clear: both;
+    margin-bottom: 20px;
+    padding: 17px;
+    width: 50%;
+    float: left;
+  }
+  
+    
+  
+  
+  .contents {
+   
+    float: right;
+    justify-content: center;
+    text-align: center; /* Align text to the right for even items */
+  
+  }
+  
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 20px;
+    width: 25%;
+    background-color: rgb(175, 149, 192);
+  }
+  
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .product-info h2 {
+    margin-top: 10px;
+  }
+  .band{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    height:60vh ;
+  
+  }
+  .band-content{
+    background-color: #61dafb;
+    width: 98.8vw;
+    position: relative;
+    display: inline-block k;
+    height: 60vh;
+    margin: 0;
+    
+  }
+  
+  .feature-box-container{
+    margin-bottom: 10%;
+    align-items: center;
+  }
+  
+  /* Style for the "Loved By Our Customers" heading */
+  .cust h2 {
+   
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* .contact{
+   
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    margin-right: 10px; /* Add some space between boxes */
+    /* text-align: center;
+    height: 25vh;
+    width: 98.8vw;
+    margin-top: 65px;
+    margin-bottom: 10%; */
+  */
+  /* Add this CSS to your stylesheet */
+  .transition-image {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add your desired transition properties */
+  }
+  
+  .transition-image:hover {
+    transform: scale(1.1); /* Increase scale on hover (adjust the value as needed) */
+    opacity: 0.8; /* Reduce opacity on hover (adjust the value as needed) */
+  }
+  
+  
+  
+  
+  .put-img{
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh;
+    display: flex;
+  
+  }
+  .feature{
+    text-align: center;
+  }
+  .contained{
+    text-align: center;
+  }
+  .banding{
+    /* max-width: 1160px; */
+    padding-top: 25px;
+    margin-top: 90px;
+    padding-bottom: 25px;
+    width: 100%;
+    height:80vh ;
+  
+  }
+  .banding-content{
+    background-color: #61dafb;
+    width: 98.8vw;
+    position: relative;
+    display: inline-block ;
+    height: 80vh;
+    margin-bottom: 10px;
+    
+  }
+  .bands{
+    max-width: 1170px;
+    /* padding-top: 25px; */
+    padding-bottom: 25px;
+    width: 100%;
+    height:50vh ;
+    margin-top:40px;
+  
+  }
+  .bands-content{
+    background-color: #61dafb;
+    width: 98.8vw;
+    position: relative;
+    display: inline-block ;
+    height: 60vh;
+    margin-top: 20px;
+    
+  }
+  .inst{
+    margin-top: 180px;
+    height: 50vh;
+    width: 98.8vw;
+  }
+  /* CSS Styles */
+  .feature-box {
+    border: 1px solid #ddd; /* Add a border */
+    padding: 10px; /* Add padding inside the box */
+    margin: 10px; /* Add margin between boxes */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    background-color: #fff; /* Set background color */
+    border-radius: 5px; /* Add rounded corners */
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+  
+    text-align: center; /* Center text horizontally */
+    margin-bottom: 20px; /* Add spacing between boxes */
+  
+    
+  }
+  
+  .feature-box iframe {
+    max-width: 100%; /* Make sure the iframe doesn't overflow the box */
+    max-height: 100%; /* Make sure the iframe doesn't overflow the box */
+    margin-top: 10px;
+  }
+  .customer-box:hover {
+    background-color: #61dafb;
+    transform: scale(1.05);
+  }
+  .product:hover{
+    /* background-color: #4f78ca; */
+    transform: scale(1.05);
+  }
+  .product {
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .product.show {
+    transform: rotate(360deg);
+  }
+  .feature-box:hover{
+    /* background-color: #b9a9ef; */
+    transform: scale(1.05);
+  }
+  .App{
+    height: 20vh;
+    width: 100vw;
+  }
+  
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+  .dropdown-menu {
+    max-height: 200px; /* Adjust the max height as needed */
+    overflow-y: auto;
+  }
+  
+  .dropdown-item {
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+  }
+  .circle{
+    background: rgba(31, 76, 255, 0.1);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+  }
+  .step{
+    font-size: 20px;
+    background: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #f7f7f7;
+    color: #4ac4f3;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+  }
+  .carousel-caption {
+    
+    flex-direction: right;
+    justify-content: center;
+    text-align: right;
+    color: #2b1616; /* Set your desired text color */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  .carousel-item-wrapper{
+    
+      /* position: relative; */
+      width: 100%;
+      overflow: hidden;
+     height: 85vh;
+    background-color: #4ac4f3;
+    margin-top: 30px;
+     
+      box-sizing: border-box;
+  
+  }
+  .carousel-caption{
+    position: absolute;
+      top: 60%;
+      left: 15%;
+      right: 15%;
+      color: #f7faf9;
+      transform: translateY(-50%);
+      animation: slideIn 3s ease-in-out;
+    }
+    
+    @keyframes slideIn {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+  }
+  /* Home.css */
+  .bouncing-image {
+    animation: bounce 2s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .fadeInUp {
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Home.css */
+  .slide-in-image {
+    animation: slideIn 3s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add this CSS to your stylesheet */
+  @media (max-width: 768px) {
+    .product-container, .put-img {
+      flex-direction: column;
+    }
+    .image-container1, .dn{
+      display: none;
+    }
+  
+    .content {
+      width: 100%;
+    }
+  
+    .images,
+    .images2,
+    .images3 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-container,
+    .image-container1 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .mx-auto {
+      padding-left: 0;
+    }
+  
+    .customer-box-container {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .customer-box {
+      width: 80%;
+      margin-right: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .band-content,
+    .bands-content,
+    .banding-content {
+      height: 60vh;
+    }
+  
+    .carousel-caption {
+      color: #eaeaec;
+      text-align: center;
+      left: 0;
+      right: 0;
+    }
+  
+    .carousel-item-wrapper {
+      height: auto;
+      
+    }
+
+    .carousel-caption {
+      flex-direction: column;
+    }
+  }
